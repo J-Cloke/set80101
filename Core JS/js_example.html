@@ -8,20 +8,29 @@
     <link rel="stylesheet" href="js_style1.css">
 </head>
 <body>
-    <h1 class="head1">CLICK ME</h1>
+    <h1 class="head1">CLICK ME BELOW ♥♥♥♥♥♥  </h1>
     <div class="wrapper">
-    <button id="hellobutton">Hello</button>
+    <button id="hellobutton">CLICK ME TO SAVE THIS KITTY!!!!</button>
     <script>
         document.getElementById("hellobutton").onclick = function() {
-            alert("Hello World")
-            alert("Stealing Browser Stored Passwords...")
-            alert("Stealing Social Media Credentials....")
-            alert("Posting Internet Search History to Social Media Accounts....")
-            var myTextNode = document.createTextNode("KTHNXBYE");
-            document.body.appendChild(myTextNode);
+            alert("THANKS !!! YOU MAYBE SAVED THIS KITTY.... BUT WAIT! ")
+            alert("Stealing Your Browser Stored Passwords...")
+            alert("Stealing Your Social Media Credentials....")
+            alert("Logging Internet Search History....")
+            window.confirm("Will you donate $1000 in bitcoin to spare this kitty from electrocution?");
+            let text;
+            if (confirm("CHOOSE ! ") == true) {
+                text = "KITTY IS SAFE FOR NOW....... :)";
+            } else {
+                text = "BYE KITTY !!! >:D";
+            }
+            document.getElementById("demo").innerHTML = text;
         }
     </script>
+    <p id="demo"></p>
     </div>
+    <div class="footer">
     </div>
+    <h1 class="head2">CLICK ME PLEASE! ^^^^ </h1>
 </body>
 </html>
